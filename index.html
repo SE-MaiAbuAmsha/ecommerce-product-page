@@ -15,7 +15,11 @@
   <body>
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
-        <button class="menu-button" aria-label="Open menu"></button>
+        <button
+          class="menu-button"
+          aria-label="Open menu"
+          aria-expanded="false"
+        ></button>
         <a href="#"
           ><img class="logo" src="./images/logo.svg" alt="Sneaker Company"
         /></a>
@@ -50,30 +54,41 @@
           class="hero-image"
           src="./images/image-product-1.jpg"
           alt="Fall limited edition sneaker"
+          tabindex="0"
+          width="1000"
+          height="1000"
         />
         <div class="thumbnails">
           <button class="thumbnail active" data-index="1">
             <img
               src="./images/image-product-1-thumbnail.jpg"
               alt="View sneaker from above"
+              width="176"
+              height="176"
             />
           </button>
           <button class="thumbnail" data-index="2">
             <img
               src="./images/image-product-2-thumbnail.jpg"
               alt="View sneaker on orange background"
+              width="176"
+              height="176"
             />
           </button>
           <button class="thumbnail" data-index="3">
             <img
               src="./images/image-product-3-thumbnail.jpg"
               alt="View sneaker sole"
+              width="176"
+              height="176"
             />
           </button>
           <button class="thumbnail" data-index="4">
             <img
               src="./images/image-product-4-thumbnail.jpg"
               alt="View sneaker side profile"
+              width="176"
+              height="176"
             />
           </button>
         </div>

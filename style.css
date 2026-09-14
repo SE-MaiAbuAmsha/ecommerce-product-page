@@ -93,13 +93,14 @@
         justify-content: center;
         padding: 76px 24px 100px;
       }
-      .hero-image {
-        border-radius: 14px;
-        cursor: pointer;
-        display: block;
-        max-width: 445px;
-        width: 100%;
-      }
+     .hero-image {
+  border-radius: 14px;
+  cursor: pointer;
+  display: block;
+  max-width: 445px;
+  width: 100%;
+  height: auto;     
+}
       .thumbnails {
         display: flex;
         gap: 27px;
@@ -300,7 +301,7 @@
         right: 0;
         top: -48px;
       }
-      @media (max-width: 800px) {
+      @media (max-width: 900px) {
         .site-header {
           border: 0;
           padding: 0 24px;
@@ -308,6 +309,7 @@
         .nav {
           height: 76px;
           gap: 18px;
+          position: relative;  
         }
         .menu-button {
           background: url("./images/icon-menu.svg") center / 18px no-repeat;
@@ -371,4 +373,18 @@
           top: 42px;
           width: min(360px, calc(100vw - 32px));
         }
+
+
+.nav-links.open {
+  display: block;
+  position: absolute;
+  top: 76px;         
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 24px;
+  box-shadow: 0 12px 30px hsl(220, 13%, 13%, 0.15);
+  z-index: 10;
+}
       }
+      
