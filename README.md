@@ -53,7 +53,6 @@ Users should be able to:
 ### What I learned
 
 - Managing UI state in vanilla JavaScript (cart, quantity, lightbox)
-- Focus management and keyboard handling in modals (ESC to close)
 - Responsive layout decisions (burger menu vs. horizontal nav)
 - GitHub Pages deployment and relative path gotchas
 
